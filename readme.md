@@ -252,7 +252,7 @@ pip install cryptography
 
 ## Technical Description of Libraries and Functions
 
-### Libraries
+## Libraries
 
 1. **[tkinter](https://docs.python.org/3/library/tkinter.html):**
    - The standard Python library for creating graphical interfaces.
@@ -277,9 +277,9 @@ pip install cryptography
 
 ---
 
-### Cryptographic Concepts Used
+## Cryptographic Concepts Used
 
-#### **[CFB (Cipher Feedback)](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#Cipher_Feedback_.28CFB.29):**
+## **CFB (Cipher Feedback):**
 - A mode of operation for block encryption algorithms like AES.
 - Converts a block cipher into a stream cipher, enabling processing of data of any size.
 - Operates by encrypting the initialization vector (IV) with the key and combining the result with plaintext using an XOR operation.
@@ -288,20 +288,20 @@ pip install cryptography
   - Does not require padding for arbitrarily sized data.
   - Suitable for real-time data transmissions.
 
-#### **[OAEP (Optimal Asymmetric Encryption Padding)](https://en.wikipedia.org/wiki/Optimal_asymmetric_encryption_padding):**
+## **OAEP (Optimal Asymmetric Encryption Padding):**
 - A padding scheme used with RSA to provide enhanced security against cryptographic attacks.
 - Combines hash functions (e.g., SHA-256) and mask generators to randomize data before encryption.
 - Benefits:
   - Protects against attacks based on predictable plaintext structures.
   - Ensures that similar plaintexts produce entirely different ciphertexts.
 
-#### **Padding:**
+## **Padding:**
 - A technique used to adjust data size before performing encryption.
 - Necessary for block algorithms like RSA, where the message size must match the block size.
 - Padding ensures smaller messages are securely filled with extra data while maintaining message integrity and security.
 - Example: OAEP is one of the most widely used padding schemes for RSA.
 
-#### **[SHA-256](https://en.wikipedia.org/wiki/SHA-2):**
+## **[SHA-256]:**
 - Part of the SHA-2 family of cryptographic hash functions.
 - Produces a fixed 256-bit digest for any input size.
 - Used for integrity verification, digital signatures, and generating masks in schemes like OAEP.
@@ -311,7 +311,7 @@ pip install cryptography
 
 ---
 
-### Program Functions
+## Program Functions
 
 1. **Encrypt AES:**
    - Uses a symmetric key (`key_aes`) and an initialization vector (`iv`) generated automatically.
@@ -372,12 +372,12 @@ pip install cryptography
 
 ## What is RSA and AES?
 
-- **[AES (Advanced Encryption Standard)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard):**
+- **AES (Advanced Encryption Standard):**
   - A symmetric encryption algorithm, meaning it uses the same key for encryption and decryption.
   - Very fast and suitable for large volumes of data.
   - Used in various modern applications like Wi-Fi, databases, and secure transmissions.
 
-- **[RSA (Rivest-Shamir-Adleman)](https://en.wikipedia.org/wiki/RSA_(cryptosystem))**:
+- **RSA (Rivest-Shamir-Adleman)**:
   - An asymmetric encryption algorithm that uses a key pair: public and private keys.
   - The public key encrypts the data, and only the corresponding private key can decrypt it.
   - Very secure but slower than AES, ideal for small volumes of data or sharing secret keys.
