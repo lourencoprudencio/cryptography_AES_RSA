@@ -1,3 +1,6 @@
+## Lourenço Prudêncio
+## GitHub: [lourencoprudencio](https://github.com/lourencoprudencio)
+## Repositório do projeto: (https://github.com/lourencoprudencio/cryptography_AES_RSA)
 
 # Importação de bibliotecas necessárias
 from tkinter import Tk, Label, Text, END, messagebox, Toplevel, Scrollbar  # Elementos básicos para a interface gráfica
