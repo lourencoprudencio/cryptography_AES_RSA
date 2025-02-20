@@ -206,6 +206,10 @@ pip install cryptography
 - GitHub: [lourencoprudencio](https://github.com/lourencoprudencio)
 - Repositório do projeto: (https://github.com/lourencoprudencio/cryptography_AES_RSA)
 
+- ## 📜 Licença
+
+Este projeto está disponível sob a licença **MIT**. O user é livre de o utilizar e modificar conforme necessário.
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 **EN**
 
@@ -409,3 +413,7 @@ pip install cryptography
 - **Lourenço Prudêncio**
 - GitHub: [lourencoprudencio](https://github.com/lourencoprudencio)
 - Project Repository: (https://github.com/lourencoprudencio/cryptography_AES_RSA)
+
+- ## 📜 License
+
+This project is available under the **MIT License**. You are free to use and modify it as needed.
